@@ -53,7 +53,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/allenthich/react-library-template.git"
+		"url": "https://github.com/allenthich/better-feature-example-plugin.git"
 	},
 	"keywords": [
 		"react",
