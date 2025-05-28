@@ -82,7 +82,7 @@
 		"@allenthich/better-feature": "^0.0.3",
 		"@allenthich/better-feature-cli": "^0.0.3",
 		"better-call": "^1.0.9",
-		"nanostores": "^1.0.1",
+		"nanostores": "^0.11.3",
 		"zod": "^3.25.32"
 	}
 }

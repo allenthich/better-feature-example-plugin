@@ -18,8 +18,8 @@ importers:
         specifier: ^1.0.9
         version: 1.0.9
       nanostores:
-        specifier: ^1.0.1
-        version: 1.0.1
+        specifier: ^0.11.3
+        version: 0.11.3
       react:
         specifier: '>=18.2.0'
         version: 19.1.0
@@ -2640,13 +2640,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanostores@0.11.4:
-    resolution: {integrity: sha512-k1oiVNN4hDK8NcNERSZLQiMfRzEGtfnvZvdBvey3SQbgn8Dcrk0h1I6vpxApjb10PFUflZrgJ2WEZyJQ+5v7YQ==}
+  nanostores@0.11.3:
+    resolution: {integrity: sha512-TUes3xKIX33re4QzdxwZ6tdbodjmn3tWXCEc1uokiEmo14sI1EaGYNs2k3bU2pyyGNmBqFGAVl6jAGWd06AVIg==}
     engines: {node: ^18.0.0 || >=20.0.0}
-
-  nanostores@1.0.1:
-    resolution: {integrity: sha512-kNZ9xnoJYKg/AfxjrVL4SS0fKX++4awQReGqWnwTRHxeHGZ1FJFVgTqr/eMrNQdp0Tz7M7tG/TDaX8QfHDwVCw==}
-    engines: {node: ^20.0.0 || >=22.0.0}
 
   napi-build-utils@2.0.0:
     resolution: {integrity: sha512-GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol/KwOsWA==}
@@ -3773,7 +3769,7 @@ snapshots:
       defu: 6.1.4
       jose: 5.10.0
       kysely: 0.28.2
-      nanostores: 0.11.4
+      nanostores: 0.11.3
       zod: 3.25.32
 
   '@ampproject/remapping@2.3.0':
@@ -6334,9 +6330,7 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  nanostores@0.11.4: {}
-
-  nanostores@1.0.1: {}
+  nanostores@0.11.3: {}
 
   napi-build-utils@2.0.0: {}
 
