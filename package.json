@@ -5,7 +5,9 @@
 	"type": "module",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
@@ -53,13 +55,18 @@
 		"type": "git",
 		"url": "https://github.com/allenthich/react-library-template.git"
 	},
-	"keywords": ["react", "typescript"],
+	"keywords": [
+		"react",
+		"typescript"
+	],
 	"release": {
-		"branches": ["main"]
+		"branches": [
+			"main"
+		]
 	},
 	"publishConfig": {
 		"access": "restricted",
-		"registry": "https://npm.pkg.github.com"
+		"registry": "https://registry.npmjs.org"
 	},
 	"config": {
 		"commitizen": {
@@ -67,6 +74,15 @@
 		}
 	},
 	"commitlint": {
-		"extends": ["@commitlint/config-conventional"]
+		"extends": [
+			"@commitlint/config-conventional"
+		]
+	},
+	"dependencies": {
+		"@allenthich/better-feature": "^0.0.3",
+		"@allenthich/better-feature-cli": "^0.0.3",
+		"better-call": "^1.0.9",
+		"nanostores": "^1.0.1",
+		"zod": "^3.25.32"
 	}
 }
