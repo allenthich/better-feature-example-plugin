@@ -1,20 +1,9 @@
-# react-library-template
+# better-feature-example-plugin
 
-Create a React component/library with Typescript including:
+Example repository for creating a `better-feature` plugin based on `better-auth`
 
-- Biome.js
-- Vite/Vitest
+## Usage
 
-## Local Development Testing
-
-Bundle package similar to publishing:
-```bash
-$ pnpm pack
-```
-Output: `allenthich-react-library-template-0.0.1.tgz`
-
-### Usage
-In the consuming project, run:
-```bash
-pnpm install ./allenthich-react-library-template-0.0.1.tgz
-```
+Refer to original `better-auth` documentation:
+- [Concepts: Plugins](https://www.better-auth.com/docs/concepts/plugins)
+- [Create your first plugin](https://www.better-auth.com/docs/guides/your-first-plugin)
