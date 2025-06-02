@@ -2,12 +2,11 @@
 	"name": "@allenthich/better-feature-example-plugin",
 	"version": "0.0.1",
 	"description": "React template component/library",
+	"private": true,
 	"type": "module",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
@@ -55,17 +54,12 @@
 		"type": "git",
 		"url": "https://github.com/allenthich/better-feature-example-plugin.git"
 	},
-	"keywords": [
-		"react",
-		"typescript"
-	],
+	"keywords": ["react", "typescript"],
 	"release": {
-		"branches": [
-			"main"
-		]
+		"branches": ["main"]
 	},
 	"publishConfig": {
-		"access": "public",
+		"access": "restricted",
 		"registry": "https://registry.npmjs.org"
 	},
 	"config": {
@@ -74,9 +68,7 @@
 		}
 	},
 	"commitlint": {
-		"extends": [
-			"@commitlint/config-conventional"
-		]
+		"extends": ["@commitlint/config-conventional"]
 	},
 	"dependencies": {
 		"@allenthich/better-feature": "^0.0.3",
